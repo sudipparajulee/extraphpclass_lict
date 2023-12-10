@@ -4,8 +4,10 @@
  $b = 3;
  $sum = $a + $b ;
  echo $sum;
+ echo '<br>';
  echo 'The sum is $sum';
  echo "The sum of $a and $b is $sum";   
+   echo '<br>';
 
  //conditions
  $num1 = 5;
