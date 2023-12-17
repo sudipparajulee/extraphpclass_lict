@@ -2,6 +2,10 @@
         <h2 class="text-3xl font-bold">Categories</h2>
         <hr class="h-1 bg-blue-500">
 
+        <div class="mt-4 text-right">
+            <a href="createcategory.php" class="bg-blue-600 text-white p-2 rounded">Add Category</a>
+        </div>
+
         <table class="mt-5 w-full">
             <tr class="bg-gray-200 text-left">
                 <th class="p-3 border border-gray-50">S.N.</th>
