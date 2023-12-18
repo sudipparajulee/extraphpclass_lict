@@ -15,4 +15,20 @@ if (!$con) {
 }
 
 
+$sql = "INSERT INTO categories(categoryname, priority) VALUES ('$categoryname', $priority)";
+
+$res = mysqli_query($con, $sql);    
+
+if ($res) {
+    echo "
+    <script>
+        alert('Category created successfully');
+        window.location.href = 'categories.php';
+    </script>
+    ";
+} else {
+    echo "Error on creating category";
+}
+
+
 ?>
